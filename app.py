@@ -75,8 +75,8 @@ st.write('Performing article spinning')
 # uploaded_file = st.sidebar.file_uploader("Choose a csv file", type="csv")
 # st.sidebar.write("or")
 st.sidebar.subheader("Enter a single paragraph : ")
-text = st.sidebar.text_area("Some samples are provided below for reference..",
-                              value="I hate twitter;I do not like the movie;Mr. Stark, I don't feel so good;May the Force be with you.;I read the book, the content is not good;This is a new beginning for us",
+text = st.sidebar.text_area("Enter in place of the default text..",
+                              value="There are numerous benefits of recycling. Recycling helps recover resources that can be used to make use of them in a different way. New products can be made by recycling general Waste. Solid Wastes like wood, glass, plastic, electronic devices, clothing and leather items can be t decompose easily and can pile up as a landfill for many years, sometimes ending up in the ocean and killing animals who choke on them accidentally. The use of such products that are harmful to everyone should be Reduced. Alternative options have been developed to Reduce the use of plastic such as jute bags instead of polythene bags, paper straws and packaging to be used in place of those made of plastic are a few to name.",
                               height=500, max_chars=None, key=None)
 
 if (st.sidebar.button('Summarize text')):
