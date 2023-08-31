@@ -1,6 +1,6 @@
 ## Introduction
 The project aims to use simple techniques in order to generate an automated summary of any particular text article.  The project uses TF-IDF vectorizer in order to rank the individual sentences in a document . It is a kind of extractive method for generating the summary , rather than an abstractive one. The deployed link on streamlit can be found here :
-https://s0ur-oranges-text-summarization-app-w4i17h.streamlitapp.com/
+[https://s0ur-oranges-text-summarization-app-w4i17h.streamlitapp.com/](https://text-summarization-app.streamlit.app/)
 
 
 ## Motivation of the project
